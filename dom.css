@@ -1,0 +1,15 @@
+div.text {
+    outline: auto;
+    width: 80%;
+    margin: auto;
+}
+
+p.one {
+    background-color: salmon;
+}
+p.two {
+    background-color:seagreen;
+}
+.red {
+    background-color: firebrick;
+}
