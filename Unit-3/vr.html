@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-light  color="red" position="-1 100 0"></a-light>
+       <a-entity id="Guy" camera enable look-controls wasd-controls="acceleration:50" geometry="primitive: sphere" material="color: blue" light="type: point; intensity: 1.0" position="0 .9 0"></a-entity>
+      <a-plane rotation="-90 0 0" width="100" height="100" color="#7BC8A4"></a-plane>
+      <a-sky color="#000000"></a-sky>
+      <a-torus-knot position="-20, 0, -30" color="#B84A39" arc="270" p="4" q="9" radius="8" radius-tubular="0.3"></a-torus-knot>
+      <a-dodecahedron rotation="-64 0 0"color="#FF926B" radius="5" position="20, 9, 16"></a-dodecahedron>
+      <a-dodecahedron color="#FF926B" radius="5" position="20, 2, 20"></a-dodecahedron>
+      <a-cone nose></a-cone>
+      <a-torus rotation="33 -90 330" color="White" arc="270" radius="51" radius-tubular="1"></a-torus>
+      <a-torus rotation="-33 -90 330" color="White" arc="270" radius="51" radius-tubular="1"></a-torus>
+      <a-torus rotation="55 -90 330" color="White" arc="270" radius="51" radius-tubular="1"></a-torus>
+      <a-torus rotation="-55 -90 330" color="White" arc="270" radius="51" radius-tubular="1"></a-torus>
+      <a-torus rotation="77 -90 330" color="White" arc="270" radius="51" radius-tubular="1"></a-torus>
+      <a-torus rotation="-77 -90 330" color="White" arc="270" radius="51" radius-tubular="1"></a-torus>
+      <a-torus rotation="0 -90 330" color="White" arc="270" radius="51" radius-tubular="1"></a-torus>
+      <a-torus rotation="-90 -90 330" color="White" arc="360" radius="51" radius-tubular="1"></a-torus>
+    </a-scene>
+    <script src="vr.js"></script>
+  </body>
+</html>
