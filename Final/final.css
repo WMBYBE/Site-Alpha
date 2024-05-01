@@ -1,0 +1,12 @@
+
+html {
+	background-color: sandybrown;
+	text-align: center;
+	font-size: 15px;
+	font-family: Verdana, Arial, serif;
+}
+
+div {
+    border: solid;
+    background-color: papayawhip;
+}

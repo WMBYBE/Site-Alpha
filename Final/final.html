@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <Head>
+        <tile>The Quiz Game</tile>
+        <link rel= "stylesheet" href="final.css">
+    </Head>
+    <body>
+        <h1>Welcome to the Quiz!</h1>
+        <div id="quiz-container">
+            <p id="question">Question goes here</p>
+            <button onclick="checkAnswer(true)">True</button>
+            <button onclick="checkAnswer(false)">False</button>
+        </div>
+
+        <div id="result-container" style="display: none;">
+            <p id="result"></p>
+            <button onclick="nextQuestion()">Next Question</button>
+        </div>
+
+        <script src="final.js"></script>
+    </body>
